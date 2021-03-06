@@ -22,10 +22,10 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
 
 \name{Jay Taves} % Your name
-\address{151 E Wilson St. Apt. 201 \\ Madison, WI, 53703} % Your address
+\address{151 E Wilson St.\ Apt.\ 201 \\ Madison, WI, 53703} % Your address
 \address{425 698 8401 \\ jaytaves@gmail.com \\ jaytaves.github.io/me/} % Your phone number and email
 
 \begin{document}
@@ -38,9 +38,11 @@
 
 \begin{rSubsection}{Simulation Based Engineering Lab}{October \osn{2019} -- Present}{Research Assistant}{Madison, WI}
 \item Managed development of SynChrono; an open-source C++ library which parallelizes the physics-based simulation engine Chrono, allowing hundreds of vehicles to operate in real-time. 
-\item Prototyped and helped implement a re-write of Chrono::Vehicle's off-road terrain algorithm, speeding it up around 60 times and enabling it to scale to arbitrary terrain sizes.
-\item Planned development goals and mentored undergraduates who were contributing to the SynChrono project.
-\item Wrote and gave talks on several conference papers and posters, gave technical presentations on design and use of SynChrono.
+\item Prototyped and helped implement a re-write of Chrono::Vehicle's off-road terrain algorithm, speeding it up around 60 times and enabling it to scale to arbitrary deformable terrain sizes.
+\item Involved in project aiming to connect physical simulators such as the National Advanced Driving Simulator (NADS) with the SynChrono virtual environment for distributed simulation of scenarios involving autonomous and conventional vehicles.
+%\item Planned development goals and mentored undergraduates who were contributing to the SynChrono project.
+\item Established a Lie group-based approach to solving the index-3 Differential Algebraic Equations that govern the time evolution of multi-body systems made of rigid bodies, allowing for two to four times faster simulation compared to classical approaches.
+\item Wrote and gave talks on several conference papers and posters, gave technical presentations on design and use of SynChrono at SuperComputing 2020, IROS and ASME.
 \end{rSubsection}
 
 \begin{rSubsection}{Epic Systems \textnormal{--- Leading vendor of EMR (Electronic Medical Record) software}}{August \osn{2017} -- June \osn{2019}}{Interfaces Developer and Project Manager}{Madison, WI}
@@ -70,8 +72,8 @@
 %------------------------------------------------
 
 \begin{rSubsection}{Zetron, Inc \textnormal{--- develops mission critical emergency dispatch systems}}{Summers \osn{2013 -- 2015}}{Web Developer}{Redmond, WA}
-\item Developed a web tool that replaced Zetron's phone-based quoting process, significantly improving the re-seller sales process.
-\item The web tool allows Zetron product specialists to create a questionnaire that re-sellers can use to configure a product for sale.
+\item Developed a web tool that replaced Zetron's phone-based quoting process, streamlining the re-seller sales process.
+\item The web tool allows product specialists to create a questionnaire that re-sellers use to configure a product for sale.
 % \item The tool was developed in JavaScript and C$^\#$ to remain fully compatible with Zetron's existing \textsc{sql} back end database and quote creation process.
 \end{rSubsection}
 
@@ -94,13 +96,13 @@
 
 {\bf University of Wisconsin--Madison} \hfill {\em Expected May \osn{2021}} \\
 Masters in Mechanical Engineering \\
-Thesis on applications of high-performance computing to physics-based simulation \\
-Researcher in the Simulation Based Engineering Lab
+Thesis on Lie group-based approach to multi-body system simulation \\
+Courses in high-performance computing, computational fluid dynamics
+% Researcher in the Simulation Based Engineering Lab
 
 {\bf Cornell University} \hfill {\em May \osn{2017}} \\
 B.S. in Mechanical Engineering, Minor in Mathematics \\
-Physics Undergraduate TA Spring \osn{2015} \\
-Courses in Finite Element Analysis, Non-linear Dynamics and Chaos
+Courses in Finite Element Analysis, Nonlinear Dynamics and Chaos
 
 \end{rSection}
 
@@ -111,7 +113,7 @@ Courses in Finite Element Analysis, Non-linear Dynamics and Chaos
 \begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{}r @{\hspace{3ex}} p{14cm} }
-Programming & High-performance (CUDA, OpenMP, MPI), Web (JavaScript, C$^\#$, HTML), Scientific (C++, \textsc{Matlab}, Python), Database (SQL, Mumps) \\
+Programming & High-performance (CUDA, OpenMP, MPI), Web (JavaScript, C\(^\# \), HTML), Scientific (C++, \textsc{Matlab}, Python), Database (SQL, Mumps) \\
 Management & Project leader for software development of the open-source library SynChrono. Project management for several Epic Systems interface installations \\
 Languages & Fluent in French, working knowledge of Spanish
 \end{tabular}

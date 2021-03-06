@@ -109,7 +109,7 @@
   \smallskip
   %\hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
-    \setlength{\leftmargin}{1.5em} % Margin within the section
+    \setlength{\leftmargin}{0.75em} % Margin within the section
   }
   \item[]
 }{
